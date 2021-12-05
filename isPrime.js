@@ -1,19 +1,7 @@
-
-function getClosestPrime(an_integer){
-    if(isPrime(an_integer))
-        return an_integer;
-    
-    let i = 0;
-    do{
-        
-    }
-}
-
-function isPrime(toCheck){
-
-    for(i = 2; i < toCheck;i++){
-        if(toCheck % i  == 0 )
-            return false;
-    }
-    return true;
+// fonction permettant de savoir si le nombre entier passé en paramètre est un nombre premier ou non
+function isPrime(toCheck) {
+  for (i = 2; i < toCheck; i++) {
+    if (toCheck % i == 0) return false;
+  }
+  return true;
 }
